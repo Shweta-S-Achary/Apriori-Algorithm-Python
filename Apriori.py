@@ -370,31 +370,6 @@ def main():
     stronga = list(seen)
     for i in range(0,len(stronga), 1):
         print(list(stronga[i]))
-    '''
-    #yevala
-    file2 = set(l2.strip() for l2 in open("finalassoc.txt"))
-    s = list(file2)
-    l3 = []
-    for i in range(0, len(s), 1):
-        t = s[i].split('*')
-        l3.append(t)
-    print(l3)
-    '''
-    
-    ''' f2 = open("finalassoc.txt","r")
-    l1 = f2.readline()
-    l3 = []
-    while(l1 != ''):
-        a2 = l1.split('*')
-        l3.append(a2)
-        l1 = f2.readline()
-    print(l3)
-
-    f2.close()
-    '''
-    #f2 = open("finalassoc.txt","w+")
-    #f2.truncate()
-    #f2.close()
 
     
 if __name__ == "__main__":
